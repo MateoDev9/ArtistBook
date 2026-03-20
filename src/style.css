@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  body {
+    @apply bg-darkBg text-white antialiased selection:bg-accent-neonPink selection:text-white font-sans;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-neonPurple to-accent-neonPink;
+  }
+  
+  .glass-effect {
+    @apply bg-cardBg/80 backdrop-blur-md border border-white/5 shadow-xl;
+  }
+}
