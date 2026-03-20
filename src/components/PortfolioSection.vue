@@ -1,16 +1,19 @@
 <script setup>
 import { ref, computed } from 'vue'
+import imgBlackwork from '../assets/pf_blackwork.png'
+import imgAnime from '../assets/pf_anime.png'
+import imgRealism from '../assets/pf_realism.png'
 
 const filters = ['Todo', 'Blackwork', 'Anime', 'Realismo']
 const activeFilter = ref('Todo')
 
 const projects = [
-  { id: 1, title: 'Cyber Demon', category: 'Blackwork', image: 'https://images.unsplash.com/photo-1590246814883-57832afa4e59?q=80&w=2070&auto=format&fit=crop', tall: true },
-  { id: 2, title: 'Goku Manga Sleeve', category: 'Anime', image: 'https://images.unsplash.com/photo-1620224213824-00e9641477df?q=80&w=2072&auto=format&fit=crop', tall: false },
-  { id: 3, title: 'Geisha Cyberpunk', category: 'Realismo', image: 'https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?q=80&w=2070&auto=format&fit=crop', tall: false },
-  { id: 4, title: 'Dark Mandala', category: 'Blackwork', image: 'https://images.unsplash.com/photo-1563240619-44ce0ceeb0b0?q=80&w=1980&auto=format&fit=crop', tall: true },
-  { id: 5, title: 'Evangelion Unit 01', category: 'Anime', image: 'https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?q=80&w=2070&auto=format&fit=crop', tall: false },
-  { id: 6, title: 'Lion Portrait', category: 'Realismo', image: 'https://images.unsplash.com/photo-1574343849132-70b138e65e68?q=80&w=1974&auto=format&fit=crop', tall: true },
+  { id: 1, title: 'Cyber Demon', category: 'Blackwork', image: imgBlackwork, tall: true },
+  { id: 2, title: 'Goku Manga Sleeve', category: 'Anime', image: imgAnime, tall: false },
+  { id: 3, title: 'Geisha Cyberpunk', category: 'Realismo', image: imgRealism, tall: false },
+  { id: 4, title: 'Dark Mandala', category: 'Blackwork', image: imgBlackwork, tall: true },
+  { id: 5, title: 'Evangelion Unit 01', category: 'Anime', image: imgAnime, tall: false },
+  { id: 6, title: 'Lion Portrait', category: 'Realismo', image: imgRealism, tall: true },
 ]
 
 const filteredProjects = computed(() => {

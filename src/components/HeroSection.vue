@@ -5,7 +5,7 @@
 <template>
   <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-darkBg">
     <!-- Background element (placeholder for video/illustration) -->
-    <div class="absolute inset-0 z-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center bg-no-repeat grayscale"></div>
+    <div class="absolute inset-0 z-0 opacity-10 bg-[url('../assets/bg_hero.png')] bg-cover bg-center bg-no-repeat grayscale"></div>
     
     <!-- Cyberpunk/Anime neon glow accents -->
     <div class="absolute top-1/4 right-1/4 w-[400px] h-[400px] bg-accent-neonPurple rounded-full blur-[120px] opacity-10 animate-pulse"></div>

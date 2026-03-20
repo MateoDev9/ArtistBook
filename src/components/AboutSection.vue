@@ -8,7 +8,7 @@
       <div class="flex-1 relative w-full aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden glass-effect group border-gray-800">
         <!-- Overlay for dark mode vibes -->
         <div class="absolute inset-0 bg-black/60 z-10 group-hover:bg-black/20 transition-colors duration-500"></div>
-        <img src="https://images.unsplash.com/photo-1560969184-10fe8719e047?q=80&w=2070&auto=format&fit=crop" 
+        <img src="../assets/about_artist.png" 
              alt="Jane Doe Tattooing" 
              class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100" />
       </div>
