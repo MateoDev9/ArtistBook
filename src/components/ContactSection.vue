@@ -14,7 +14,7 @@
           <div>
             <h2 class="text-4xl font-display font-bold mb-4">¿Hacemos <span class="text-accent-neonPink">Magia</span>?</h2>
             <p class="text-gray-400 font-light text-lg">
-              Cuéntame tu idea para un tatuaje, un proyecto de video o una sesión de fotos.
+              Cuéntame tu idea, la zona que te gustaría tatuar y el estilo que buscas.
             </p>
           </div>
           

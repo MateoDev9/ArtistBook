@@ -3,24 +3,24 @@
 </script>
 
 <template>
-  <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+  <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-darkBg">
     <!-- Background element (placeholder for video/illustration) -->
-    <div class="absolute inset-0 z-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center bg-no-repeat grayscale"></div>
+    <div class="absolute inset-0 z-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center bg-no-repeat grayscale"></div>
     
     <!-- Cyberpunk/Anime neon glow accents -->
-    <div class="absolute top-1/4 right-1/4 w-[400px] h-[400px] bg-accent-neonPurple rounded-full blur-[120px] opacity-20 animate-pulse"></div>
-    <div class="absolute bottom-1/4 left-1/4 w-[300px] h-[300px] bg-accent-neonPink rounded-full blur-[100px] opacity-20"></div>
+    <div class="absolute top-1/4 right-1/4 w-[400px] h-[400px] bg-accent-neonPurple rounded-full blur-[120px] opacity-10 animate-pulse"></div>
+    <div class="absolute bottom-1/4 left-1/4 w-[300px] h-[300px] bg-accent-neonPink rounded-full blur-[100px] opacity-10"></div>
 
     <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
       <h1 class="text-6xl md:text-8xl font-display font-extrabold uppercase tracking-tight mb-6">
-        <span class="block">Jane Doe</span>
-        <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent-neonPurple via-accent-neonPink to-accent-neonGreen animate-gradient">
-          Visual Artist
+        <span class="block text-white">Jane Doe</span>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent-neonPurple via-accent-neonPink to-accent-neonGreen animate-gradient drop-shadow-lg">
+          Tattoo Artist
         </span>
       </h1>
       
-      <p class="text-xl md:text-2xl text-gray-300 font-light mb-10 max-w-2xl mx-auto">
-        Tattoo Artist <span class="text-accent-neonPink mx-2">|</span> Filmmaker <span class="text-accent-neonGreen mx-2">|</span> Visual Storyteller
+      <p class="text-xl md:text-2xl text-gray-400 font-light mb-10 max-w-2xl mx-auto">
+        Blackwork Specialist <span class="text-accent-neonPink mx-2">|</span> Anime Ink <span class="text-accent-neonPurple mx-2">|</span> Dark Art
       </p>
 
       <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">

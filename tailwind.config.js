@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        darkBg: '#0f172a', /* slate-900 */
-        cardBg: '#1e293b', /* slate-800 */
+        darkBg: '#030303', /* Pure almost black */
+        cardBg: '#0a0a0a', /* Very dark gray */
         accent: {
           neonPink: '#ec4899', /* pink-500 */
           neonPurple: '#a855f7', /* purple-500 */
